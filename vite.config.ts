@@ -24,7 +24,10 @@ export default defineConfig(({ mode }) => {
           target: env.VITE_PROXY_TARGET,
           changeOrigin: true,
           rewrite: (path) =>
-            path.replace(new RegExp(`^${env.VITE_API_BASE}`), `${env.VITE_API_BASE}`),
+            path.replace(
+              new RegExp(`^${env.VITE_API_BASE}`),
+              `${env.VITE_API_BASE}`
+            ),
         },
       },
       port: 1234,
