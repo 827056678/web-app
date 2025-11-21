@@ -30,7 +30,7 @@ export default defineConfig(({ mode }) => {
             ),
         },
       },
-      port: 1234,
+      port: 4000,
     },
   };
 });

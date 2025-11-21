@@ -1,5 +1,5 @@
 <template>
-  <div>INDEX</div>
+  <div>User</div>
 </template>
 
 <script setup lang="ts">
